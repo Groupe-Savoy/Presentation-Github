@@ -18,6 +18,7 @@ theme: apple-basic
 
 - Système de contrôle de version décentralisé.
 - Gestion des versions de code en local. 
+- https://git-scm.com/
 
 ##
 
@@ -25,6 +26,13 @@ theme: apple-basic
 
 - Plateforme de gestion de projet utilisant Git.
 - Collaboration, suivi des problèmes, intégration continue.
+- https://github.com/
+
+---
+
+# Workflow
+
+![schema](/schema.png)
 
 ---
 
