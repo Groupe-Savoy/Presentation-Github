@@ -87,6 +87,47 @@ Pousse les modifications vers le référentiel distant.
 
 ---
 
+# Pour la documentation
+##
+### Astro
+
+Le framework utilisé pour générer la documentation est Astro :
+https://astro.build/
+
+##
+### Markdown
+
+Le langage le plus utilisé pour les documentations est le Markdown. Astro et GitHub utilisent également
+ce langage : https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+##
+### Mermaid
+
+Pour les graphiques, GitHub et Astro utilisent Mermaid directement dans le Markdown. Cela permet de générer des diagrammes à partir de texte : https://mermaid.js.org/intro/getting-started.html
+
+---
+
+# Mermaid
+
+##
+### Code
+```
+graph TD
+    A[Enter Chart Definition] --> B(Preview)
+    B --> C{decide}
+```
+
+##
+### Resultat
+
+```mermaid
+graph TD
+    A[Enter Chart Definition] --> B(Preview)
+    B --> C{decide}
+```
+
+---
+
 # Conclusion
 
 Récapitulation des points clés :
